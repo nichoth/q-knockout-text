@@ -1,0 +1,25 @@
+{
+  "name": "q-knockout-text",
+  "version": "0.0.0",
+  "homepage": "https://github.com/nichoth/q-knockout-text",
+  "authors": [
+    "nichoth <nichoth@gmail.com>"
+  ],
+  "description": "Sass mixin for knockout (transparent) text",
+  "main": "_q-knockout-text.scss",
+  "keywords": [
+    "background-clip",
+    "sass",
+    "mixin",
+    "transparent",
+    "text"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
