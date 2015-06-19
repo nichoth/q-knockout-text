@@ -1,0 +1,15 @@
+@import "../_q-knockout-text";
+
+.example {
+  background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg);
+  @include q-knockout-text(pink);
+
+  // make it pretty
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font: {
+    family: Avenir Next, Helvetica, sans-serif;
+    weight: 900;
+    size: 6em;
+  }
+}

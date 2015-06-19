@@ -1,0 +1,5 @@
+@mixin q-knockout-text($fallbackColor) {
+  color: $fallbackColor;  /* Fallback: assume this color ON TOP of image */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
