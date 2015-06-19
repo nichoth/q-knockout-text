@@ -9,10 +9,10 @@ Sass mixin for `background-clip` property &mdash; text that reveals a background
 ## Example
 
 ```sass
-@import "../_q-knockout-text";
+@import "bower_components/q-knockout-text/q-knockout-text";
 
 .example {
   background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg);
-  @include q-knockout-text(pink);
+  @include q-knockout-text(pink); // this is the text color in non-webkit browsers.
 }
 ```
